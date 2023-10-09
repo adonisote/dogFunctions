@@ -19,3 +19,6 @@ def tricks_perfectioning(name, perfectioning, ready_to_use):
         print(f'{name.title()} is currently perfectioning how to {current_trick}')
 
 #tricks_perfectioning('pilatus', perfectioning, ready_to_use)
+
+def name_and_owner(dog_name, owner_name):
+    return f"{dog_name.title()} belongs to {owner_name.title()}"
