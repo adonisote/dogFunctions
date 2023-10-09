@@ -22,3 +22,7 @@ def tricks_perfectioning(name, perfectioning, ready_to_use):
 
 def name_and_owner(dog_name, owner_name):
     return f"{dog_name.title()} belongs to {owner_name.title()}"
+
+def dog_needs(dog_name, need_1 ='pop', need_2='sleep', need_3='eat'):
+    return f"{dog_name} needs always to {need_1}, {need_2}, or {need_3}"
+
